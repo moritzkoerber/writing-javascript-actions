@@ -22,4 +22,4 @@ jobs:
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           joke: ${{steps.jokes.outputs.joke-output}}
-          issue-tile: "super joke"
+          issue-title: "super joke"
