@@ -4,7 +4,7 @@ const core = require("@actions/core");
 async function run() {
   const joke = await getJoke();
   console.log(joke);
-  console.log("this is a test");
+
   core.setOutput("joke-output", joke);
 }
 
